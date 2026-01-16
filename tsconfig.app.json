@@ -13,6 +13,7 @@
     "strict": true,
     "esModuleInterop": true, 
     "allowSyntheticDefaultImports": true, 
+    "types": ["node"], // ADICIONE ESTA LINHA AQUI
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
@@ -24,5 +25,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "vite-env.d.ts"],
+  "include": ["src", "vite-env.d.ts"]
 }
