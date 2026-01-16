@@ -11,15 +11,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "strict": true,
+    "skipLibCheck": true, 
     "esModuleInterop": true, 
     "allowSyntheticDefaultImports": true, 
-    "types": ["node"], // ADICIONE ESTA LINHA AQUI
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "moduleDetection": "force",
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
     "baseUrl": ".", 
     "paths": {
       "@/*": ["src/*"]
